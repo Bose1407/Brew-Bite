@@ -1,0 +1,24 @@
+body {
+  font-family: "Bubblegum Sans", cursive;
+  background-color: #6F4E37; 
+  color: #F5F5DC;
+}
+
+#home,
+#about,
+#products,
+#reviews,
+#contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
